@@ -120,7 +120,7 @@ export const workData = [
     },
     {
         title: 'E-commerce Mobile App',
-        description: 'UI/UX Design',
+        description: 'Web And Mobile',
         bgImage: '/ecom.png',
         Link: 'https://youtu.be/rEz-Pxi_V-E',
     },
