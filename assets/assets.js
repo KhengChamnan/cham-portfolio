@@ -87,8 +87,8 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Dertam App',
-        description: 'Mobile App',
+        title: 'Dertam',
+        description: 'Toursim App',
         bgImage: 'https://res.cloudinary.com/dd4hzavnw/image/upload/v1764685259/events/mevlxoh2gn5ljhqonvuu.jpg',
         links: [
             { label: 'Mobile App Demo', url: 'https://youtu.be/wdqH-LMVRbk' },
@@ -98,13 +98,13 @@ export const workData = [
     },
     {
         title: 'Palm HR Mobile App',
-        description: 'Mobile App',
+        description: 'Human Resource App ',
         bgImage: '/palm_hr_app.png',
         Link: 'https://youtu.be/uWoLuk_26DE',
     },
     {
         title: 'Komnot',
-        description: '',
+        description: 'Fraud Dectection',
         bgImage: '/komnot.png',
         Link: 'https://youtu.be/1BiNicV6auA',
     },
