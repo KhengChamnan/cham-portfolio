@@ -53,7 +53,7 @@ const Navbar = () => {
         }`}
       >
         <a href="#top" className="text-2xl font-bold cursor-pointer mr-14">
-          Kheng Chamnan
+          Cham Portfolio
         </a>
 
         <ul

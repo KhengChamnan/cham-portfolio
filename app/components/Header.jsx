@@ -14,7 +14,7 @@ const Header = () => {
         <Image src={assets.hand_icon} alt="" className=" w-6" />
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] ">
-        Mobile & Backend Developer.
+        Full Stack Developer.
       </h1>
       <p className="max-w-2xl mx-auto text-center text-lg md:text-xl">
         I'm a Full Stack Mobile Developer with a passion for creating beautiful and functional

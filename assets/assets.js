@@ -35,6 +35,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import github_icon from './github-icon.png';
+import postman_icon from './postman-icon.png';
+import mysql_icon from './mysql-icon.png';
+import docker_icon from './docker-icon.png';
+import Link from 'next/link';
 
 export const assets = {
     user_image,
@@ -73,29 +78,48 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    github_icon,
+    postman_icon,
+    mysql_icon,
+    docker_icon
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
+        title: 'Dertam App',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: 'https://res.cloudinary.com/dd4hzavnw/image/upload/v1764685259/events/mevlxoh2gn5ljhqonvuu.jpg',
+        links: [
+            { label: 'Mobile App Demo', url: 'https://youtu.be/wdqH-LMVRbk' },
+            { label: 'Postman Demo', url: 'https://youtu.be/SuYWi9m9FXk' },
+            { label: 'Source Code', url: 'https://github.com/KhengChamnan/DerTam' },
+        ],
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Palm HR Mobile App',
+        description: 'Mobile App',
+        bgImage: '/palm_hr_app.png',
+        Link: 'https://youtu.be/uWoLuk_26DE',
     },
     {
-        title: 'UI/UX designing',
+        title: 'Komnot',
+        description: '',
+        bgImage: '/komnot.png',
+        Link: 'https://youtu.be/1BiNicV6auA',
+    },
+
+    {
+        title: 'SaveTok Tiktok Video Download',
+        description: '',
+        bgImage: '/savetok.png',
+        Link: 'https://savetok.onrender.com/',
+    },
+    {
+        title: 'E-commerce Mobile App',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/ecom.png',
+        Link: 'https://youtu.be/rEz-Pxi_V-E',
     },
 ]
 
@@ -107,11 +131,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Dart, PHP, SQL, NoSQL' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Frameworks', description: 'Flutter, Laravel, Express Js, Next.js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Cambodia Academy Digital Technology' },
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.figma, assets.git, assets.github_icon, assets.postman_icon, assets.mysql_icon, assets.docker_icon
 ];
