@@ -113,7 +113,10 @@ export const workData = [
         title: 'SaveTok Tiktok Video Download',
         description: '',
         bgImage: '/savetok.png',
-        Link: 'https://savetok.onrender.com/',
+        links: [
+            { label: 'Webite', url: 'https://savetok.onrender.com/' },
+            { label: 'Source Code', url: 'https://github.com/KhengChamnan/SaveTok' },
+        ],
     },
     {
         title: 'E-commerce Mobile App',
