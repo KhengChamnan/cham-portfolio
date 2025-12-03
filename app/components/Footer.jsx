@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="mt-20">
       <div className="text-center">
-        <div className="w-max flex items-center gap-2 mx-auto">
-          <Image src={assets.mail_icon} alt="" className="w-8" />
-          <span className="text-lg">chamnankheng231@gmail.com</span>
+        <div className="w-full flex flex-col sm:flex-row items-center gap-2 justify-center px-4">
+          <Image src={assets.mail_icon} alt="" className="w-6 sm:w-8" />
+          <span className="text-sm sm:text-lg break-all text-center">chamnankheng231@gmail.com</span>
         </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
