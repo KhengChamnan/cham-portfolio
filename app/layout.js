@@ -1,4 +1,5 @@
 import { Outfit, Ovo } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const outfitSans = Outfit({
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body>
+      <GoogleAnalytics gaId="G-NVE6LGVJ72" />
     </html>
   );
 }
